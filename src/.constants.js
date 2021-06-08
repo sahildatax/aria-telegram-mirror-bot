@@ -26,7 +26,7 @@ module.exports = Object.freeze({
     NAME: "@nameOf_bot"
   },
   IS_TEAM_DRIVE: true,
-  USE_SERVICE_ACCOUNT: false,
+  USE_SERVICE_ACCOUNT: true,
   INDEX_DOMAIN: "",
   TELEGRAPH_TOKEN: '', // Telegraph token, if you want to show search results in telegra.ph else keep it blank,
   STOP_DUPLICATE_MIRRORS: false // To stop duplicate mirror
