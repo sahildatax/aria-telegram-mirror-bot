@@ -9,7 +9,7 @@ module.exports = Object.freeze({
   GDRIVE_PARENT_DIR_ID: '12wmpFiNifwLW9s0AFW97d3B2Z_0Vv-gB',
   OTHER_GDRIVE_DIR_IDS: [], // This is needed if u want to look for files in multiple dirs on list command
   SUDO_USERS: [830785064, 872830003],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  AUTHORIZED_CHATS: [-1001462185974],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: true,
