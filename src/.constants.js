@@ -1,7 +1,7 @@
 module.exports = Object.freeze({
   TOKEN: '1897478523:AAEJLzpGyFp1qSaHiycUQEtW4KzkXiPgtaY',
   ARIA_SECRET: 'myaria2',
-  ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
+  ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/aria-telegram-mirror-bot/downloads',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
@@ -12,8 +12,8 @@ module.exports = Object.freeze({
   AUTHORIZED_CHATS: [],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
-    ENABLED: false,
-    EMAILS: ['someMail@gmail.com', 'someOtherMail@gmail.com']
+    ENABLED: true,
+    EMAILS: ['sahilkindle@gmail.com', 'sahilnolia@gmail.com']
   },
   DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion.
     enabled: false,   // Set this to true to use the notify functionality
