@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: '1897478523:AAEJLzpGyFp1qSaHiycUQEtW4KzkXiPgtaY',
+  TOKEN: '1654056742:AAF7dBK-MavEvuIn55ApjA0GOYp8oOa26-Q',
   ARIA_SECRET: 'myaria2',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/aria-telegram-mirror-bot/downloads',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
@@ -12,8 +12,8 @@ module.exports = Object.freeze({
   AUTHORIZED_CHATS: [-1001462185974],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
-    ENABLED: true,
-    EMAILS: ['sahilkindle@gmail.com', 'sahilnolia@gmail.com']
+    ENABLED: false,
+    EMAILS: ['sumiit1304@gmail.com', 'sahilnolia@gmail.com']
   },
   DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion.
     enabled: false,   // Set this to true to use the notify functionality
@@ -22,12 +22,12 @@ module.exports = Object.freeze({
     path: '/botNotify'
   },
   COMMANDS_USE_BOT_NAME: {
-    ENABLED: false,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@nameOf_bot"
+    ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
+    NAME: "@sahiltarxbot"
   },
   IS_TEAM_DRIVE: true,
   USE_SERVICE_ACCOUNT: true,
-  INDEX_DOMAIN: "",
-  TELEGRAPH_TOKEN: '', // Telegraph token, if you want to show search results in telegra.ph else keep it blank,
-  STOP_DUPLICATE_MIRRORS: false // To stop duplicate mirror
+  INDEX_DOMAIN: "http://mydrive.sahilnolia.workers.dev/1:/",
+  TELEGRAPH_TOKEN: 'f5c975468deef0afed0dcbc96b60c1f919ed3d03c22a64ca3e21cf353ed2', // Telegraph token, if you want to show search results in telegra.ph else keep it blank,
+  STOP_DUPLICATE_MIRRORS: true // To stop duplicate mirror
 });
